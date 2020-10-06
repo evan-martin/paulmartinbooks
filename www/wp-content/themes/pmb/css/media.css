@@ -1,0 +1,37 @@
+article.book-media.entry-content{
+	border-bottom-width: 0;
+	margin: 0 0 1.5em 1em;
+	padding: 0;
+}
+.book-media-body, .book-media-body h2{
+	font-family: 'Carme', Tahoma, Veranda, Arial, Helvetica, sans-serif;
+}
+
+.book-media-body span{
+	font-size: 0.75em;
+}
+
+.book-media-body a{
+	font-size: 0.9em;
+	float: right;
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	width: 4em;
+}
+
+article.book-media p{
+	font-size: 1.1em;
+	float: left;
+	line-height: 1.15em;
+	padding: 0;
+	margin: 0;
+}
+
+.book-media .book-media-title{
+	margin-right: 2em;
+}
+
+.page.media .cover{
+    margin-bottom: 2em;
+}

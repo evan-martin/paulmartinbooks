@@ -1,0 +1,27 @@
+.character{
+	overflow: auto;	
+	display: inline-block;
+}
+
+.character .character-thumb {
+	display: inline-block;
+	margin-right: 2em;
+	width: 13em;
+}
+
+.character .character-thumb img{
+	float: right;
+}
+
+.character-body{
+	display: inline-block;
+	vertical-align: top;
+}
+
+article.character div.entry-content{
+	overflow: hidden;
+}
+
+.character .article-title > h1{
+	font-size: 1.25em;
+}

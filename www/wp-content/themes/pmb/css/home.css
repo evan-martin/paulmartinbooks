@@ -1,0 +1,177 @@
+body.home article.page{
+	float: left;
+}
+
+body.home article.page .entry-content .photo{
+	/*width: 536px;*/
+	float: left;
+	margin: 0 1.75em 0.25em 0;
+}
+
+body.home article.page .entry-content .photo img{
+	vertical-align: top;
+	margin-bottom: 0.5em;
+}
+
+#credit-img{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	vertical-align: bottom;
+}
+
+body.home article.page .entry-content .photo span{
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+	margin-bottom: 0.25em;
+	padding-bottom: 0em;
+	
+-webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	text-transform: uppercase;
+}
+/*body.home article.page .entry-content .photo img, body.home article.page .entry-content .photo span{
+	float: left;
+}*/
+
+body.home .entry-content p{
+	max-width: 42em;
+}
+
+/** Book Cover Carousel **/
+#book-cover-carousel{
+	float: left;
+	margin-left: 5.5em;
+	text-align: center;
+}
+
+#book-cover-carousel ul{
+	position: relative;
+	height: 32.5em;
+	width: 18em;
+	margin-top: 0.5em;
+}
+
+#book-cover-carousel ul li{
+	display: none;
+	position: absolute;
+	width: 100%;
+	/*background-color: #D4C6A7;
+	border: 1px solid #BBA674;*/
+	padding: 0.5em 0;
+}
+
+#book-cover-carousel ul li:nth-child(1){
+	display: block;
+}
+
+#book-cover-carousel ul li div.cover-wrapper{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#book-cover-carousel ul li a.button{
+	margin-top: 1.6em;
+	width: 200px;		
+}
+
+#book-cover-carousel ul li img{
+	display: block;
+	overflow: auto;
+	width: 200px;
+	height: auto;
+	margin: 0px auto;
+}
+
+#book-cover-carousel ul li .cover-quote{
+	margin: 1em 0;
+	white-space: nowrap;
+	line-height: 1.5em;
+}
+
+#villains-cover .cover-quote{
+	margin-bottom: 0.5em !important;
+}
+
+#book-cover-carousel ul li .reviewer-title{
+	font-size: 0.75em;	
+	margin: 0.5em 0 0em 0;
+}
+
+#book-cover-carousel ul li .reviewer-name{
+	color: #A83706;
+	font-weight: 700;
+}
+
+#book-cover-carousel-controls{
+	display: inline-block;	
+}
+
+#book-cover-carousel-controls a.carousel-link {
+	font-size: 0.75em;
+	color: #545138;
+	display: inline-block;
+}
+
+#book-cover-carousel-controls a.carousel-link:not(:last-of-type){
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	border-right: 1px solid #BBA674;
+}
+
+#book-cover-carousel-controls a.carousel-link.current, #book-cover-carousel-controls a.carousel-link.current:hover {
+	color: #A83706;
+	/*font-size: 0.75em;*/
+	cursor: default;
+	text-decoration: none;
+}
+
+#book-cover-carousel-controls a.carousel-link:hover{
+	color: #3D3A2B;
+}
+
+#book-cover-carousel-controls a.prev{
+	margin-right: 0.5em;	
+}
+
+#book-cover-carousel-controls a.prev:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	border: 6px solid transparent;
+	margin-top: -3px;
+	margin-right: 0.5em;
+	border-right-color: #545138;
+}
+
+#book-cover-carousel-controls a.next:after{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	border: 6px solid transparent;
+	margin-top: -3px;
+	margin-left: 0.5em;
+	border-left-color: #545138;	
+}
+
+#book-cover-carousel-controls a.next:hover:after{
+	border-left-color: #3D3A2B;
+}
+
+#book-cover-carousel-controls a.prev:hover:before{
+	border-right-color: #3D3A2B;	
+}

@@ -1,0 +1,20 @@
+.review-body .reviewer-name{
+	color: #A83706;
+	font-weight: 700;
+}
+
+.review-body .reviewer{
+	font-size: 0.9em;
+}
+
+.review-body p:first-child{
+	margin-bottom: 0.5em;
+}
+
+.site-content article .review{
+    overflow: hidden;
+}
+
+.page.reviews .cover{
+    margin-bottom: 2em;
+}

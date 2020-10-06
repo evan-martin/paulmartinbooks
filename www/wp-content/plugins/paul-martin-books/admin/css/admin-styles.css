@@ -1,0 +1,49 @@
+fieldset.pmb-meta-fields label, fieldset.pmb-meta-fields input[type="text"], fieldset.pmb-meta-fields .radio-group, fieldset.pmb-meta-fields textarea, div.radio-group{
+	float: left;
+	clear: both;
+}
+
+fieldset.pmb-meta-fields input[type="text"]{
+	width: 50%;
+}
+
+/*fieldset.pmb-meta-fields input[type="radio"] + label{
+	clear: right;
+	color: red !important;
+}*/ 
+
+fieldset.pmb-meta-fields label{
+	margin-top: 1.25em;
+	margin-left: 0.25em;
+}
+
+fieldset.pmb-meta-fields textarea{
+	width: 75%;
+	height: 8em;
+}
+
+div.radio-group input[type="radio"], div.radio-group label{
+	margin-left: 0.25em;
+	margin-top: 0.25em;
+	float: none;
+	clear: none;
+}
+
+div.radio-group{
+	overflow: hidden;
+	width: 100%;
+}
+
+div.radio-group label{
+	margin-left: 0.5em;
+	margin-right: 1.5em;
+}
+
+.vert-sep{
+	display: inline-block;
+	width: 2px;
+	background-color: #CCC;
+	height: 1.5em;
+	vertical-align: bottom;
+	margin-right: 1.5em;
+}
